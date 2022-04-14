@@ -1,0 +1,292 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900);
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.body{
+	background: #F5F5F5;
+	font-family: 'Roboto';
+}
+
+.header {
+
+}
+
+.main {
+	
+}
+
+.footer {
+
+}
+
+.our-promise {
+
+}
+
+.our-promise__container {
+
+}
+
+.our-promise__content {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 50px 0 80px 0;
+	
+}
+
+.our-promise__heading {
+	margin-bottom: 75px;
+	max-width: 540px;
+}
+
+.heading {
+
+}
+
+.heading__sub-title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	color: #5D62B5;
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 35px;
+}
+
+.heading__sub-title::before{
+	content: "";
+	width: 25px;
+	height: 25px;
+	background: url(../img/our-promise/our-promise_mark.svg);
+	position: absolute;
+	left: 0px;
+	top: -2px;
+}
+
+.heading__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+}
+
+.our-promise__items {
+	display: flex;
+	margin-bottom: 130px;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.item {
+   display: flex;
+	flex: 0 1 324px;
+	gap: 25px;
+}
+
+.item__content{
+	flex-direction: column;
+}
+
+.item__image{
+	flex: 0 0 60px;
+}
+
+.item__img{
+	width: 100%;
+}
+
+.item__head {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.368;
+	color: #F2726F;
+	margin-bottom: 20px;
+}
+
+.item__text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+
+.our-impact {
+	padding-bottom:150px;
+}
+
+.our-impact__container {
+	background: #29C3BE;
+}
+
+.our-impact__content {
+	max-width: 1020px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.our-impact__content::before{
+	content: "";
+	width: 645px;
+	height: 280px;
+	background: url(../img/our-impact/our-impact__blob.svg) no-repeat;
+	position: absolute;
+	z-index: 0;
+	right: -70px;
+	top: 0px;
+}
+
+.our-impact__content{
+
+}
+
+.our-impact__head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.head {
+	
+}
+
+.head__heading {
+	padding-top: 112px;
+	max-width: 411px;
+	z-index: 1;
+	margin-bottom: 75px;
+}
+
+.heading {
+
+}
+
+.our-impact__head .heading__sub-title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	color: #ffffff;
+	text-transform: uppercase;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 35px;
+}
+
+.our-impact__head .heading__sub-title::before{
+	content: "";
+	width: 25px;
+	height: 25px;
+	background: url(../img/our-impact/our-impact__mark.svg);
+	position: absolute;
+	left: 0px;
+	top: -2px;
+}
+
+.our-impact__head .heading__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #ffffff;
+}
+
+.head__image {
+	width: 500px;
+	height: 315px;
+	position: relative;
+}
+
+.head__img{
+	width: 100%;
+	border-radius: 40px;
+	position: absolute;
+	top: -80px;
+}
+
+.our-impact__indication {
+	display: flex;
+	margin-bottom: 135px;
+	flex-wrap: wrap;
+	gap: 80px 50px;
+}
+
+.indication {
+	flex: 0 0 210px;
+	display: flex;
+	gap: 10px;
+}
+
+.indication__image {
+	flex: 0 0 80px;
+}
+
+.indication__img {
+	width: 100%;
+}
+
+.indication__content{
+	
+}
+
+.indication__number {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.16;
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+
+.indication__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+
+.our-impact__bottom-block {
+	display: flex;
+	max-width: 1020px;
+	border-radius: 20px;
+	background: #5D62B5;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	color: white;
+	letter-spacing: 0.15px;
+	position: relative;
+	bottom: -75px;
+}
+
+.block-bottom {
+
+}
+
+.block-bottom__text {
+	padding: 45px 70px 45px 70px;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 1.25;
+	flex: 0 1 680px;
+}
+
+.block-bottom__button {
+	border-radius: 8px;
+	width: 210px;
+	height: 48px;
+	text-transform: uppercase;
+	display: inline-block;
+	background: #F2726F;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.button {
+
+}
+
+.block-bottom__link{
+	padding: 55px 70px 45px 70px;
+}
